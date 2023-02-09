@@ -17,8 +17,7 @@
             {
                 "root": ["./src"],
                 "alias": {
-                    "utilities": "./src/utilities",
-                    "wsc": "./src/wsc"
+                    "utilities": "./src/utilities"
                 }
             }
         ]
