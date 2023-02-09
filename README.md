@@ -1,10 +1,9 @@
-# Shepherd Core
+# Project Name
 
-A core for browser automatization, made by me, for my projects.
+Short project description...
 
 ## Build and Run
 
 ```shell
-$ babel src -d lib
-$ node lib/scrap.js
+$ yarn && yarn start
 ```

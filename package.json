@@ -1,19 +1,17 @@
 {
-  "name": "shepherd-core",
+  "name": "template",
   "version": "1.0.0",
-  "main": "./lib/scrap.js",
+  "main": "./lib/run.js",
   "author": "mishashto",
   "license": "none",
   "private": true,
   "scripts": {
     "build": "babel src -d lib",
-    "start": "babel src -d lib && node lib/scrap.js"
+    "start": "babel src -d lib && node lib/run.js"
   },
   "dependencies": {
     "colors": "^1.4.0",
-    "dotenv": "^16.0.1",
-    "puppeteer": "^16.1.1",
-    "ws": "^8.8.1"
+    "dotenv": "^16.0.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.18.10",
